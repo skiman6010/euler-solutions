@@ -17,4 +17,7 @@ def find_prime(target)
 	end
 end
 
+s = Time.new
 puts find_prime(10001)
+puts "elapsed: #{Time.new-s}"
+
